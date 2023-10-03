@@ -55,14 +55,15 @@ To get a copy of this project up and running on your local machine, follow these
    ```bash
    git clone https://github.com/your-username/restaurant-website.git
  ```
+
 2. Navigate to the project directory:
 
-   ```bash
+```bash
     cd restaurant-website
- ```
+```
 
  3. Install the required dependencies:
-    ```bash
+```bash
     npm install react-icons
  ```
 

@@ -17,7 +17,7 @@ import award01 from '../assets/award01.png';
 import award02 from '../assets/award02.png';
 import award03 from '../assets/award03.png';
 import award05 from '../assets/award05.png';
-import sign from '../assets/sign.png';
+import sign from '../assets/signature.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.jpg';
 

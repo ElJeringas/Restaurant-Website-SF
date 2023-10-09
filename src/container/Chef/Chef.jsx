@@ -2,9 +2,12 @@ import React from 'react'
 import {images} from '../../constants'
 import SubHeading from '../../components/SubHeading/SubHeading'
 import newChefImage from '../../assets/newchef.svg'
+import { useTranslation } from 'react-i18next';
+
 import './Chef.css'
 
 const Chef = () => {
+  const {t} = useTranslation('global')
   return (
     <div className='app__bg app__wrapper section__padding'>
       <div className='app__wrapper_img app__wrapper_img-reverse'>
@@ -12,14 +15,14 @@ const Chef = () => {
         <img src={newChefImage} alt='chef'/>
       </div>
       <div className='app__wrapper_info'>
-         <SubHeading title={'Chef`s Word'}/>
-         <h1 className='headtext__cormorant'>What we believe in</h1>
+         <SubHeading title={t(`chef.subtitle`)}/>
+         <h1 className='headtext__cormorant'>{t(`chef.title`)}</h1>
          <div className='app__chef-content'>
           <div className='app__chef-content_quote'>
             <img src={images.quote} alt='quote'/>
-            <p className='p__opensans'>Nostrud eiusmod voluptate consequat ea aliqua aliquip eiusmod.</p>
+            <p className='p__opensans'>{t(`chef.description`)}</p>
           </div>
-          <p className='p__opensans'> Lorem labore sunt excepteur occaecat irure amet nisi sit aliquip deserunt. Non officia Lorem dolor tempor elit fugiat ad laborum. Mollit anim id reprehenderit esse voluptate quis non eiusmod qui sunt mollit.</p>
+          <p className='p__opensans'>{t(`chef.description_2`)}</p>
          </div>
          <div className='app__chef-sign'>
             <p>Juan Ortega</p>

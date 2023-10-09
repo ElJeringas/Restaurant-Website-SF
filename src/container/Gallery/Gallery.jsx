@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import {BsInstagram, BsArrowLeftShort, BsArrowRightShort} from 'react-icons/bs';
 import {images} from '../../constants';
 import SubHeading from '../../components/SubHeading/SubHeading';
+import { useTranslation } from 'react-i18next';
 import './Gallery.css';
 
 const img = [ images.gallery01, images.gallery02, images.gallery03, images.gallery04];
@@ -9,6 +10,8 @@ const img = [ images.gallery01, images.gallery02, images.gallery03, images.galle
 
 
 const Gallery = () => {
+  const {t} = useTranslation('global')
+
   const scrollRef = useRef(null);
 
   const scroll = (direction) => {
@@ -23,10 +26,10 @@ const Gallery = () => {
   return (
     <div className='app__gallery flex__center'>
       <div className='app__gallery-content'>
-        <SubHeading title={"Instagram"}/>
-        <h1 className='headtext__cormorant'>Photo Gallery</h1>
-        <p className='p__opensans' style={{color:'#AAAAA', marginTop:'2rem'}}>Consectetur anim dolore amet voluptate.</p>
-        <button type='button' className='custom__button'>View More</button>
+        <SubHeading title={t(`gallery.subtitle`)}/>
+        <h1 className='headtext__cormorant'>{t(`gallery.title`)}</h1>
+        <p className='p__opensans' style={{color:'#AAAAA', marginTop:'2rem'}}>{t(`gallery.description`)}</p>
+        <button type='button' className='custom__button'>{t(`gallery.button`)}</button>
       </div>
       <div className='app__gallery-images'>
         <div className='app__gallery-images_container' ref={scrollRef}>

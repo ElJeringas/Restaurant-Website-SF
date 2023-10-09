@@ -44,6 +44,41 @@
     transition: 0.5s;
 }
 
+.app__language-icon {
+    color: var(--color-white);
+    font-size: 30px;
+    margin-right: 1rem;
+}
+
+.app__language-icon:hover {
+    color: var(--color-golden);
+    transition: 0.2s ease;
+}
+
+.language-list {
+    list-style-type: none;
+    position:static;
+    z-index: 1;
+    background: var(--color-black); /* Add background color as needed */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow as needed */
+  }
+  
+  .language-list li {
+    padding: 8px 16px;
+    cursor: pointer;
+    color: var(--color-white);
+    font-family: var(--font-alt);
+  }
+  .language-list li:hover {
+    color: var(--color-golden);
+    }
+  
+  /* Additional styling for open/close animation if desired */
+  .language-list.closed {
+    display: none;
+  }
+  
+
 .app__navbar-login a:hover{
     border-bottom: 1px solid var(--color-golden);
 }

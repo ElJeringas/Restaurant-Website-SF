@@ -1,21 +1,24 @@
 import React from 'react';
 import {images} from '../../constants';
 import SubHeading from '../../components/SubHeading/SubHeading';
+import { useTranslation } from 'react-i18next';
 
 const FindUs = () => {
+  const {t} = useTranslation('global')
+
   return (
     <div className='app__bg app__wrapper section__padding' id='contact'>
       <div className='app__wrapper_info'>
-        <SubHeading title={'contact'}/>
-        <h1 className='headtext__cormorant' style={{marginBottom:'3rem'}}>Find Us</h1>
+        <SubHeading title={t(`contact.subtitle`)}/>
+        <h1 className='headtext__cormorant' style={{marginBottom:'3rem'}}>{t(`contact.title`)}</h1>
         <div className='app__wrapper-content'>
-          <p className='p__opensans'>Fugiat fugiat proident culpa exercitation aliquip occaecat.</p>
-          <p className='p__opensans'>Fugiat fugiat proident culpa exercitation aliquip occaecat.</p>
-          <p className='p__cormorant' style={{color:'#DCCA87', margin:'2rem 0'}}>Opening Hours</p>
-          <p className='p__opensans'>Mon - Fri: 08:00am - 23:00</p>
-          <p className='p__opensans'>Sat - Sun: 10:00am - 21:00</p>
+          <p className='p__opensans'>{t(`contact.description_1`)}</p>
+          <p className='p__opensans'>{t(`contact.description_2`)}</p>
+          <p className='p__cormorant' style={{color:'#DCCA87', margin:'2rem 0'}}>{t(`contact.schedule_title`)}</p>
+          <p className='p__opensans'>{t(`contact.schedule_1`)}</p>
+          <p className='p__opensans'>{t(`contact.schedule_2`)}</p>
         </div>
-        <button type='button' className='custom__button' style={{marginTop:'2rem'}}>Contact Us</button>
+        <button type='button' className='custom__button' style={{marginTop:'2rem'}}>{t(`contact.button`)}</button>
       </div>
 
       <div className='app__wrapper_img'>

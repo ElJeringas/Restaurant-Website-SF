@@ -18,8 +18,10 @@
     "about" : {
         "title_1" : "about Us",
         "description_1" : "At San Francisco, we are passionate about showcasing the best of Loja's culinary treasures.",
+        "description_1_expand" : " With a rich history, we celebrate local and international cuisines, inviting you to savor Loja's culinary heritage. Join us for a memorable dining experience that captures the essence of our beloved region in every delicious bite.",
         "title_2" : "Our History",
-        "description_2" : "San Francisco stands as a testament to our enduring passion for showcasing the flavors that define our region. We take pride in our role as a culinary ambassador, welcoming guests from near and far to savor the authentic tastes of Loja. Our place's history is a tribute to the Ecuadorian culture, and we look forward to sharing this legacy with you, one delicious dish at a time.",
+        "description_2" : "San Francisco stands as a testament to our enduring passion for showcasing the flavors that define our region.",
+        "description_2_expand" : " We take pride in our role as a culinary ambassador, welcoming guests from near and far to savor the authentic tastes of Loja. Our place's history is a tribute to the Ecuadorian culture, and we look forward to sharing this legacy with you, one delicious dish at a time.",
         "button":"Know More"
     },
 
@@ -32,7 +34,8 @@
     "chef" : {
         "title" : "What We Believe In",
         "subtitle" : "Chef's Word",
-        "description" : "At San Francisco, our culinary creations are brought to life by our talent and passion. With a deep appreciation for the art of cooking and a profound understanding of local flavors, these are the heart and soul of our kitchen"
+        "description" : "At San Francisco, our culinary creations are brought to life by our talent and passion.",
+        "description_2" :" With a deep appreciation for the art of cooking and a profound understanding of local flavors, these are the heart and soul of our kitchen"
     },
 
     "laurels" : {
@@ -59,10 +62,10 @@
         "title": "Find Us",
         "subtitle" : "Contact",
         "description_1" : "Bolívar y Colón Esquina, Loja 110101 Ecuador",
-        "description_2" : "+5939888888",
+        "description_2" : "Phone: +5939888888",
         "schedule_title" : "Opening Hours",
-        "schedule_1" : "Mon - Fri: 08:00am - 23:00",
-        "schedule_2" : "Sat - Sun: 10:00am - 21:00",
+        "schedule_1" : "Mon - Fri: 08:00 - 23:00",
+        "schedule_2" : "Sat - Sun: 10:00 - 21:00",
         "button" : "Contact Us"
     },
 
@@ -76,8 +79,8 @@
 
     "footer" : {
         "title_1": "Contact Us",
-        "description_1": "Bolívar y Colón Esquina, Loja 110101 Ecuador",
-        "title_2": "Follow us",
+        "description_1": "Bolívar & Colón Esquina, Loja 110101 Ecuador",
+        "title_2": "Book a Table",
         "title_3": "Working Hours",
         "description_3": "Monday - Friday",
         "description_4" : "Saturday - Sunday",

@@ -1,0 +1,90 @@
+{
+    "navbar" : {
+        "home": "Home",
+        "about" : "Sobre Nosotros",
+        "menu" : "Menu",
+        "awards" : "Reconocimientos",
+        "contact" : "Contacto",
+        "book" : "Reserva"
+    },
+
+    "header" : {
+        "title" : "Descubre la nueva Gastronomía",
+        "subtitle" : "Explora Nuevos Sabores",
+        "description" : "¡Bienvenidos a San Francisco! Estamos encantados de darle la bienvenida a nuestro restaurante, donde abrazamos la gastronomía y las delicias que definen nuestra región. Nuestro cálido servicio, diversos sabores y amplias opciones de menú lo esperan para deleitar sus sentidos. Únase a nosotros para vivir una experiencia gastronómica inolvidable que celebra el corazón de la excelencia culinaria de Loja.",
+        "button" : "Explorar Menu"
+    },
+
+    "about" : {
+        "title_1" : "Sobre Nosotros",
+        "description_1" : "En San Francisco, nos apasiona mostrar lo mejor de nuestros tesoros culinarios.",
+        "description_1_expand" : " Con una rica historia, celebramos la cocina local e internacional, invitándolo a saborear la herencia culinaria de Loja. Únase a nosotros para una experiencia gastronómica memorable que captura la esencia de nuestra querida región en cada delicioso bocado.",
+        "title_2" : "Conoce Nuestra Historia",
+        "description_2" : "San Francisco es un testimonio de nuestra pasión duradera por mostrar los sabores que definen nuestra región. ",
+        "description_2_expand" : "Estamos orgullosos de nuestro papel como embajadores culinarios, dando la bienvenida a huéspedes de cerca y de lejos para saborear los auténticos sabores de Loja. La historia de nuestro lugar es una tributo a la cultura ecuatoriana, y esperamos compartir este legado con usted, un delicioso plato a la vez.",
+        "button":"Conoce Más"
+    },
+
+    "menu" : {
+        "title" :"Menu del día",
+        "subtitle" : "Menu que se adapta a tu paladar",
+        "button" : "Ver Mas"
+    },
+
+    "chef" : {
+        "title" : "Creemos en nuestro trabajo",
+        "subtitle" : "Palabras del Chef",
+        "description" : "En San Francisco, nuestras creaciones culinarias cobran vida gracias a nuestro talento y pasión.",
+        "description_2" :"Con un profundo aprecio por el arte de cocinar y una profunda comprensión de los sabores locales, estos son el corazón y el alma de nuestra cocina"
+    },
+
+    "laurels" : {
+        "title": "Nuestros Reconocimientos",
+        "subtitle": "Premios Y Distinciones",
+        "laurel_1": "Calidad de Servicio",
+        "description_1": "",
+        "laurel_2": "Comfort",
+        "description_2": "",
+        "laurel_3" : "Hospitalidad",
+        "description_3": "",
+        "laurel_4": "Chef",
+        "description_4": ""
+    },
+
+    "gallery" : {
+        "title" : "Galería",
+        "subtitle" : "Instagram",
+        "description" : "Siguenos en nuestra cuenta de Instagram",
+        "button" : "Siguenos"
+    },
+
+    "contact" : {
+        "title": "Encuentranos",
+        "subtitle" : "Contactos",
+        "description_1" : "Bolívar y Colón Esquina, Loja 110101 Ecuador",
+        "description_2" : "Telefono: +5939888888",
+        "schedule_title" : "Horario",
+        "schedule_1" : "Lun - Vie: 08:00 - 23:00",
+        "schedule_2" : "Sab - Dom: 10:00 - 21:00",
+        "button" : "Contactanos"
+    },
+
+    "newsletter" : {
+        "title" : "Suscribete a nuestras noticias",
+        "subtitle" : "Newsletter",
+        "description": "Enterate de nuestras novedades",
+        "placeholder" : "Ingresa tu correo electrónico",
+        "button" : "Suscribirse"
+    },
+
+    "footer" : {
+        "title_1": "Contactos",
+        "description_1": "Bolívar y Colón Esquina, Loja 110101 Ecuador",
+        "title_2": "Reserva con Nosotros",
+        "title_3": "Horarios",
+        "description_3": "Lunes - Viernes",
+        "description_4" : "Sabados - Domingos",
+        "copyright": "Copyright (c) Copyright Holder Todos los derechos reservados."
+    }
+
+}

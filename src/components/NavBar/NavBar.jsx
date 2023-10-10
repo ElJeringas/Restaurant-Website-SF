@@ -50,7 +50,7 @@ const NavBar = () => {
         )}
 {/*         <a href='#login' className='p__opensans'>English / Spanish</a>
  */}        <div/>
-        <a href='/' className='p__opensans'>{t(`navbar.book`)}</a>
+        <a href='https://api.whatsapp.com/send?phone=593979723405' target="_blank" rel="noopener noreferrer" className='p__opensans'>{t(`navbar.book`)}</a>
       </div>
       <div className='app__navbar-smallscreen'>
         <GiHamburgerMenu color='#fff' fontSize={27} onClick={() => setToggleMenu(true)}/>

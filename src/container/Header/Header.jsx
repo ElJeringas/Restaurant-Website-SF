@@ -13,7 +13,7 @@ const Header = () => {
         <SubHeading title={t(`header.subtitle`)}/>
         <h1 className='app__header-h1'>{t(`header.title`)}</h1>
         <p className='p__opensans' style={{margin:'2rem 0', textTransform:'none'}}>{t(`header.description`)}</p>
-        <button type='button' className='custom__button'>{t(`header.button`)}</button>
+        <a type='button' href='#menu' className='custom__button'>{t(`header.button`)}</a>
       </div>
       <div className='app__wrapper_img'>
         <img src={newimg} alt='header'/>

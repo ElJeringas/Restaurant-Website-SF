@@ -25,10 +25,17 @@ const Footer = () => {
           <p className='p__opensans'>{t(`footer.title_2`)}</p>
           <img src={images.spoon} alt='spoon' className='spoon__img' style={{marginTop:'15px'}}/>
           <div className='app__footer-links_icons'>
-            <BsInstagram/>
-            <BsFacebook/>
+            <a href="https://www.instagram.com/casabolivarhotelmuseo/" target="_blank" rel="noopener noreferrer">
+              <BsInstagram/>
+            </a>
+            <a href="https://www.facebook.com/casabolivarhotelmuseo" target="_blank" rel="noopener noreferrer">
+              <BsFacebook/>
+            </a>
+            <a href="https://api.whatsapp.com/send/?phone=593979723405&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
             <BsWhatsapp/>
+            </a>
           </div>
+          <img src={images.G} alt='footer logo' style={{marginTop:'2rem'}} height={'90px'} width={'60px'}/>
         </div>
 
         <div className='app__footer-links_work'>

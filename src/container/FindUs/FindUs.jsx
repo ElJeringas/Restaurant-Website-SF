@@ -18,7 +18,7 @@ const FindUs = () => {
           <p className='p__opensans'>{t(`contact.schedule_1`)}</p>
           <p className='p__opensans'>{t(`contact.schedule_2`)}</p>
         </div>
-        <button type='button' className='custom__button' style={{marginTop:'2rem'}}>{t(`contact.button`)}</button>
+        <a type='button' href='https://api.whatsapp.com/send?phone=593979723405' target="_blank" rel="noopener noreferrer"  className='custom__button' style={{marginTop:'2rem'}}>{t(`contact.button`)}</a>
       </div>
 
       <div className='app__wrapper_img'>

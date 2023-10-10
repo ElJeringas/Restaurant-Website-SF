@@ -1,4 +1,3 @@
-import React from 'react'
 import SubHeading from '../../components/SubHeading/SubHeading';
 import {images, data} from '../../constants';
 import { useTranslation } from 'react-i18next';

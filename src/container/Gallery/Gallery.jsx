@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import {BsInstagram, BsArrowLeftShort, BsArrowRightShort} from 'react-icons/bs';
 import {images} from '../../constants';
 import SubHeading from '../../components/SubHeading/SubHeading';

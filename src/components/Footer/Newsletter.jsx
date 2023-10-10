@@ -1,4 +1,3 @@
-import React from 'react'
 import SubHeading from '../../components/SubHeading/SubHeading';
 import { useTranslation } from 'react-i18next';
 import './Newsletter.css'

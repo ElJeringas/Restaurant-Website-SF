@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {MdLanguage} from 'react-icons/md'
 import {MdOutlineRestaurantMenu} from 'react-icons/md'
@@ -18,6 +18,8 @@ const NavBar = () => {
     setIsOpen(!isOpen);
   };
   const [toggleMenu, setToggleMenu] = useState(false);
+
+  
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
@@ -48,8 +50,7 @@ const NavBar = () => {
             <li onClick={()=>handleChangeLanguage("es")}>Spanish</li>
           </ul>
         )}
-{/*         <a href='#login' className='p__opensans'>English / Spanish</a>
- */}        <div/>
+        <div/>
         <a href='https://api.whatsapp.com/send?phone=593979723405' target="_blank" rel="noopener noreferrer" className='p__opensans'>{t(`navbar.book`)}</a>
       </div>
       <div className='app__navbar-smallscreen'>
@@ -59,21 +60,22 @@ const NavBar = () => {
           <MdOutlineRestaurantMenu fontSize={27} className='overlay__close' onClick={() => setToggleMenu(false)}/>
           <ul className='app__navbar-smallscreen_links'>
             <li className='p__opensans'>
-              <a href='#home'>{t(`navbar.home`)}</a>
+              <a href='#home' onClick={() => setToggleMenu(false)}>{t(`navbar.home`)} </a>
             </li>
             <li className='p__opensans'>
-              <a href='#about'>{t(`navbar.about`)}</a>
+              <a href='#about' onClick={() => setToggleMenu(false)}>{t(`navbar.about`)}</a>
             </li>
             <li className='p__opensans'>
-              <a href='#menu'>{t(`navbar.menu`)}</a>
+              <a href='#menu' onClick={() => setToggleMenu(false)}>{t(`navbar.menu`)}</a>
             </li>
             <li className='p__opensans'>
-            <a href='#awards'>{t(`navbar.awards`)}</a>
+            <a href='#awards' onClick={() => setToggleMenu(false)}>{t(`navbar.awards`)}</a>
             </li>
             <li className='p__opensans'>
-            <a href='#contact'>{t(`navbar.contact`)}</a>
+            <a href='#contact' onClick={() => setToggleMenu(false)}>{t(`navbar.contact`)}</a>
             </li>
           </ul>
+          <img  className= 'mobile__logo' src={images.G} alt='image logo'/>
         </div>
         )}
 

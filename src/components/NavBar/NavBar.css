@@ -130,6 +130,12 @@
     color: var(--color-white);
 }
 
+.mobile__logo {
+    width: 50px;
+    height: 70px;
+    margin-top: 3rem;
+}
+
 @media screen and (max-width:2000px) {
     .app__navbar-logo img{
         width: 210px;

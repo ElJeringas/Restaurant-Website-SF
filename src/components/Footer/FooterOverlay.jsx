@@ -1,4 +1,3 @@
-import React from 'react'
 import './footerOverlay.css'
 
 const FooterOverlay = () => {

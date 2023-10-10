@@ -1,4 +1,3 @@
-import React from 'react'
 import './SubHeading.css';
 import { images } from '../../constants';
 const SubHeading = ({title}) => {
